@@ -1,6 +1,6 @@
 function tableRouter(context, req) {
-    var res = context.res;
-    var id = context.bindings.id;
+    const res = context.res;
+    const id = context.bindings.id;
  
     switch (req.method) {
         case 'GET':

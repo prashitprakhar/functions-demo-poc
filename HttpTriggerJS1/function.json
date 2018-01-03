@@ -11,7 +11,8 @@
         "put",
         "patch",
         "delete"
-      ]
+      ],
+      "route": "tables/todoitem/{id:alpha?}"
     },
     {
       "type": "http",

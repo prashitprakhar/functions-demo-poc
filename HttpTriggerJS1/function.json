@@ -6,7 +6,11 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
+        "get",
+        "post",
+        "put",
+        "patch",
+        "delete"
       ]
     },
     {
